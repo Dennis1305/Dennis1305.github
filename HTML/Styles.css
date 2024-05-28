@@ -1,0 +1,74 @@
+text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section#introduction, section#contact {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 8px;
+}
+
+section#introduction h2, section#contact h2 {
+    margin-top: 0;
+}
+
+section#blog-posts article {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+section#blog-posts article h3 {
+    margin-top: 0;
+}
+
+section#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#contact ul li {
+    margin-bottom: 0.5rem;
+}
+
+section#contact ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+section#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
